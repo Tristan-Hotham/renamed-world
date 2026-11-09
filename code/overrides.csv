@@ -1,0 +1,5 @@
+# Overrides read by eye. action: wave (set the wave to value), kind (mark as spelling, status or qualifier), exclude (not a
+# renaming: reason). year empty = every event of the item.
+qid,year,action,value,reason
+Q103892,1920,exclude,,Zabrze: a German name with the Polish name in brackets during the Upper Silesian plebiscite years; not an official renaming
+Q103892,1922,exclude,,Zabrze: the bracketed form dropped again; not an official renaming

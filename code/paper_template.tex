@@ -1,0 +1,123 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array,xcolor,longtable}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage[round]{natbib}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={The Renamed World},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries The Renamed World\par}
+\vspace{0.4em}
+{\large Official renamings of places in Wikidata, by decade and by wave\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: https://doi.org/10.5281/zenodo.24075301\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+Places change their official names in waves: revolutions and their undoing, wars and new borders, independence, nation-building and language policy, and the administrative reforms that merge villages into towns. I read every official name (Wikidata property P1448) that carries a start or end date on an item with coordinates, {{n.statements|int}} names on {{n.items|int}} items, and reconstruct {{n.events_core|int}} dated changes of name on settlements and administrative areas. {{n.minor_pc|f1}}\% of these keep the name: new spellings ({{n.spelling|int}}), new status words ({{n.status|int}}) or a qualifier added or dropped ({{n.qualifier|int}}). After removing a bulk revision of the Galician gazetteer and {{n.dup_x|int}} duplicated records, {{n.renamings|int}} true renamings of {{n.places_renamed|int}} places in {{n.countries|int}} present-day countries remain. Classified by explicit rules, {{waves.communist.pc|f1}}\% came under revolution and communism, {{waves.reversal.pc|f1}}\% undid revolutionary or communist names, {{waves.nation.pc|f1}}\% belong to nation-building and language policy, {{waves.merger.pc|f1}}\% to mergers and administrative reform, {{waves.war.pc|f1}}\% to war and new borders and {{waves.colonial.pc|f1}}\% to decolonisation, a figure that reflects how few African and Asian renamings Wikidata dates, not the size of that wave; {{waves.other.pc|f1}}\% fit none of the rules. The busiest decade is the {{peak_decades.0.decade|raw}}s, driven by {{romania.y1964|int}} Romanian village renamings in 1964; Ukraine's decommunisation of 2016 ({{ukraine.y2016|int}}) and its renamings of 2024 ({{ukraine.y2024|int}}) dominate the recent record. {{back.places|int}} places returned to an earlier name. Coverage is very uneven: {{former_ussr.pc|f1}}\% of renamings are in the former Soviet Union and only {{africa.renamings|int}} in Africa, so the counts describe Wikidata's record rather than the world.
+
+\textbf{Keywords:} toponymy; place names; renaming; Wikidata; decommunisation; decolonisation; historical geography; critical place-name studies
+\end{quote}
+
+\section{Introduction}
+Renaming a place is one of the cheapest and most visible things a new regime can do. Studies of the politics of place names have shown how street and town names commemorate, how they are changed when power changes hands, and how renaming writes a version of history into the everyday landscape \citep{azaryahu1996,roseredwood2010,light2004}. Most such work studies one city or one country in depth. This paper asks a simpler and broader question of an open, global source: when Wikidata records that a place's official name changed, when did that happen, where, and to which wave of renaming does it belong?
+
+Wikidata \citep{wikidata} records the official name of many places with qualifiers for the date each name started and ended. That makes it possible to rebuild name histories in bulk, but also invites errors: a name that ends because a municipality was merged away is not a renaming, a new spelling is not a new name, and the same change is often recorded on two items. Much of the work reported here is about separating true renamings from these.
+
+\section{Data}
+The extract, made with the QLever SPARQL engine \citep{qlever}, holds every Wikidata item with coordinates (P625) and at least one official name (P1448) with a start time (P580) or end time (P582) qualifier: {{n.rows|int}} rows, one per name statement and per class and country of the item, which reduce to {{n.statements|int}} distinct names in {{n.items|int}} items. Names carry a language tag. Class (P31) and country (P17) are given only as identifiers. I grouped the commonest classes by hand from a sample of the labels of their items into settlements, administrative areas, streets and squares, stations, institutions and natural features, and the rest from words in each item's English label. The present-day country and continent of each item come from the Natural Earth 1:10m boundaries \citep{naturalearth}, with points within 30 km of a coast assigned to the nearest country; points in Crimea are counted with Ukraine. The analysis concerns the {{n.events_core|int}} name changes on settlements and administrative areas; the other kinds of thing ({{other_kinds.total|int}} renamings of streets, stations, institutions and natural features) are released but not analysed.
+
+\section{Method}
+\subsection{From names to renamings}
+Within each language of an item, a \emph{transition} is a name whose end date falls within one year of the start date of a different name. Transitions of one item in several languages within a year of each other form one \emph{event}, dated by the commonest start year. The old and new names shown are those in English where there is an English transition, otherwise in a local language of the present-day country. Names that end with no successor in any language are not events: {{n.ended_no_successor|int}} places have such names, mostly municipalities merged into a neighbour.
+
+Each event is then compared, in the local languages where possible, after removing words for status (town, city, village, district, rural council, raion, county, prefecture, Bezirksamt, kota besar and the like, and the Chinese and Japanese suffixes for county, town, village and city) and the commonest Slavonic adjective endings. An event is a \emph{spelling} change if the names agree once accents, spacing and punctuation are ignored, if their similarity ratio is at least 0.8 and their lengths differ by three letters or fewer, or if their consonants agree; a \emph{status} change if the names agree once status words are removed; and a \emph{qualifier} change if the words of one name are a proper subset of the other's (Conflans to Conflans-sur-Anille). A name extended with an explicit conjunction (Lynton to Lynton and Lynmouth, Mirabel to Mirabel-et-Blacons) is a renaming, counted with mergers. None of the other flagged changes is counted as a renaming.
+
+\subsection{Waves}
+The remaining events are assigned to one wave by the first rule that applies (Table~\ref{tab:rules}). The communist vocabulary is a list of about 180 name parts in Latin, Cyrillic, Armenian and Georgian script: the names of Soviet and other communist leaders (Lenin, Stalin, Kirov, Kalinin, Zhdanov, Voroshilov, Frunze, Ordzhonikidze, Dimitrov, Gottwald and others), and words such as October, Soviet, Red Army, Komsomol, commune and May Day. Cyrillic is normalised so that Ukrainian and Russian spellings match.
+
+{{TABLE_RULES}}
+
+\subsection{Checking}
+I read every event in the three smallest waves (decolonisation, war and the undoing of names), every place renamed three times or more, every place named in this paper, and samples of 25 to 30 from each other wave and flag, repeating after each correction of the rules. The review changed the rules in ways listed in the repository notes; for example, Ukrainian rural councils were at first taken for spelling changes because their status words dominate the comparison, and settlement names of the form ``settlement of state farm No.~4'' were at first counted as communist names being undone. Three kinds of record were removed: a bulk revision of {{n.galician|int}} Galician place names all dated 2026 (articles and spellings added to the regional gazetteer at once); {{n.dup_same|int}} changes recorded twice on the same item with no change back in between; and {{n.dup_two|int}} changes recorded on a second item for the same place within 5 km (a Romanian commune and its main village, a city and its district), keeping the settlement and then the item with the lower number. Two further events were excluded by hand (Table~\ref{tab:override}). In all {{n.corrected_pc|f1}}\% of the name changes on places were removed as errors, duplicates or the Galician batch.
+
+\section{Results}
+\subsection{How many renamings}
+Of {{n.events_core|int}} dated changes of name on places, {{n.spelling|int}} are new spellings, {{n.status|int}} new status words and {{n.qualifier|int}} qualifiers added or dropped, leaving {{n.renamings|int}} renamings ({{n.renaming_pc|f1}}\%) of {{n.places_renamed|int}} places (Figure~\ref{fig:funnel}). Status changes are dominated by Japan, where {{japan.status|int}} of {{japan.events|int}} name changes are villages becoming towns or towns becoming cities.
+
+\begin{figure}[tbp]\centering\includegraphics[width=0.92\textwidth]{f_funnel.png}
+\caption{From dated changes of official name on places to renamings.}\label{fig:funnel}\end{figure}
+
+\subsection{The waves and the decades}
+Table~\ref{tab:waves} gives the size of each wave. Renamings under revolution and communism are the largest group ({{waves.communist.n|int}}): {{soviet.token_given|int}} gave a name that honours a communist leader, symbol or date, and most of the rest are village renamings ordered under communist rule, above all in Romania in 1964 and in Soviet Ukraine and Armenia. {{waves.reversal.n|int}} renamings undid such names: {{soviet.destal|int}} during de-Stalinisation, {{soviet.post|int}} after the fall of communism, and {{ukraine.reversal_2015|int}} under Ukraine's decommunisation laws from 2015 (every Ukrainian renaming of 2015 to 2017 is counted here, since the renamings of those years were made under those laws). Nation-building and language policy ({{waves.nation.n|int}}) is mostly the former Soviet republics after 1991, from Kazakh and Azerbaijani names replacing Russian ones to Ukraine's renamings of 2024 under a 2023 law against names tied to Russia ({{ukraine.y2024|int}}, of which {{ukraine.y2024_reversal|int}} removed surviving Soviet names and so count as undoing).
+
+{{TABLE_WAVES}}
+
+Figure~\ref{fig:decades} shows the renamings by decade. Before 1900 almost all are local (other). The 1920s to 1940s are communist, with the war years adding the German names of the territories that became Polish and Russian in 1945. The busiest decade is the {{peak_decades.0.decade|raw}}s ({{peak_decades.0.n|int}}), and the busiest single year is {{peak_years.0.year|raw}} in Romania ({{peak_years.0.n|int}}). After 1990 nation-building and the undoing of communist names take over; {{peak_years.1.year|raw}} in Ukraine ({{peak_years.1.n|int}}) is the second busiest year in the record.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_decades.png}
+\caption{Renamings of places by decade since 1800, by wave.}\label{fig:decades}\end{figure}
+
+\subsection{Where}
+The record leans heavily east (Figures~\ref{fig:map} and \ref{fig:europe}, Table~\ref{tab:countries}). {{former_ussr.n|int}} renamings ({{former_ussr.pc|f1}}\%) are in the former Soviet Union, and the five countries with most hold {{top5_pc|f1}}\%. Decolonisation, which in the literature and in popular memory is one of the great waves of renaming, appears only {{waves.colonial.n|int}} times, {{colonial.cd|int}} of them in the Democratic Republic of the Congo (Léopoldville to Kinshasa, Élisabethville to Lubumbashi). This is an artefact of the record and of the rule, not a finding. Of twenty well-known renamings away from colonial names in Africa and Asia, {{decol_check.absent|int}} (among them Calcutta to Kolkata, Dacca to Dhaka, Bathurst to Banjul and Tananarive to Antananarivo) have no dated official name in the extract at all; {{decol_check.no_event|int}} (Batavia to Jakarta, Usumbura to Bujumbura) have official names but no dated change; {{decol_check.other_wave|int}} fall in other waves, Bombay to Mumbai, Madras to Chennai and Rangoon to Yangon as nation-building because they came more than 25 years after independence, and Saigon to Ho Chi Minh City as communist; and only {{decol_check.colonial|int}} are counted as decolonisation. Africa as a whole has {{africa.renamings|int}} renamings, India {{india.renamings|int}}. The United Kingdom has {{uk.renamings|int}}, nearly all civil parishes and urban districts taking a joined name, and Ireland none: the returns of Kingstown to Dún Laoghaire and Queenstown to Cobh are not recorded with dates.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_map.png}
+\caption{Every renaming of a place, coloured by wave (equal-earth projection).}\label{fig:map}\end{figure}
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_europe.png}
+\caption{Renamings from the Atlantic to Central Asia.}\label{fig:europe}\end{figure}
+
+{{TABLE_COUNTRIES}}
+
+\subsection{Name histories}
+{{n_renamed_2plus|int}} places were renamed twice or more and {{n_renamed_3plus|int}} three times or more (Figure~\ref{fig:chains}, Table~\ref{tab:most}). The capital of Kazakhstan was renamed {{most_renamed.0.n|int}} times, as often as any place in the record: Ak-Mola, Akmolinsk, Tselinograd, Akmola, Astana, Nur-Sultan and Astana again. Vladikavkaz went from Ordzhonikidze to Dzaudzhikau and back to Ordzhonikidze before regaining its name in 1990; Luhansk was Voroshilovgrad twice; Rybinsk was named after Shcherbakov in 1946 and Andropov in 1984. {{back.events|int}} renamings, of {{back.places|int}} places, returned to a name the place had held before, {{back.by_wave.reversal|int}} of them undoing a revolutionary or communist name. The oldest in the record are French: names given in the Revolution of the 1790s, such as Commune-Affranchie for Lyon and Commune-Franklin for Bordeaux, which Wikidata records as reversed in 1814.
+
+\begin{figure}[tbp]\centering\includegraphics[width=\textwidth]{f_chains.png}
+\caption{Name histories of twelve places since 1900. Each bar is one official name, coloured by the wave of the renaming that gave it. Names transliterated from the Wikidata records.}\label{fig:chains}\end{figure}
+
+{{TABLE_MOST}}
+
+\section{Limitations}
+The counts describe Wikidata, not the world. Dated official names have been added in bulk for some countries (Ukraine, Romania, Russia, France, Japan) and hardly at all for others, so comparisons between countries and continents mostly measure editing effort. Dates are as recorded, which may be the date of a decree, of its publication or of its coming into force, and a few are plainly wrong (the French restorations dated 1814). The waves are assigned by rules from country, date and the words in names, not by reading the reason for each renaming; a renaming can have several motives, and the rules will misplace some, for example a Soviet-era renaming that was in fact local, or a post-1991 renaming that undid a communist name not on the vocabulary list. Countries are present-day ones, and the start of communist rule is moved later only for the regions listed in Table~\ref{tab:rules}; renamings made under German or Romanian occupation in 1941 to 1944 inside the Soviet Union are still counted with Soviet rule. The decolonisation wave is the clearest case of missing data (Section~4.3): its size says nothing about how many places were renamed at independence. The spelling test can join different names that happen to look alike, and the status words do not cover every language. Places that were merged and lost their name are not renamings here, though for the people who lived there they may have felt like one.
+
+\section{Data availability}
+The interactive map is at \url{{{PAGE}}}. Data and code are at \url{{{REPO}}}: \texttt{renamings.csv} lists every dated change of name on places with its flags, wave, the reason for any exclusion and the language of the names; \texttt{renamings\_other\_kinds.csv} the renamings of streets, stations, institutions and natural features; \texttt{overrides\_applied.csv} the hand corrections; and \texttt{results.json} every number in this paper. The rules are in \texttt{code/rules.py}. Wikidata content is CC0; derived data CC0; text and figures CC BY 4.0; code MIT.
+
+\section*{AI assistance}
+{{AI}}
+
+\begin{thebibliography}{9}
+\bibitem[Azaryahu(1996)]{azaryahu1996} Azaryahu, M. (1996) The power of commemorative street names. \textit{Environment and Planning D: Society and Space} 14(3), 311 to 330.
+\bibitem[Bast and Buchhold(2017)]{qlever} Bast, H. and Buchhold, B. (2017) QLever: a query engine for efficient SPARQL+text search. \textit{Proceedings of the 2017 ACM Conference on Information and Knowledge Management (CIKM)}, 647 to 656.
+\bibitem[Light(2004)]{light2004} Light, D. (2004) Street names in Bucharest, 1990 to 1997: exploring the modern historical geographies of post-socialist change. \textit{Journal of Historical Geography} 30(1), 154 to 172.
+\bibitem[Natural Earth(2026)]{naturalearth} Natural Earth (2026) Admin 0 countries, 1:10m. Public domain. \url{https://www.naturalearthdata.com/}
+\bibitem[Rose-Redwood et al.(2010)]{roseredwood2010} Rose-Redwood, R., Alderman, D. and Azaryahu, M. (2010) Geographies of toponymic inscription: new directions in critical place-name studies. \textit{Progress in Human Geography} 34(4), 453 to 470.
+\bibitem[Vrande\v{c}i\'c and Kr\"otzsch(2014)]{wikidata} Vrande\v{c}i\'c, D. and Kr\"otzsch, M. (2014) Wikidata: a free collaborative knowledgebase. \textit{Communications of the ACM} 57(10), 78 to 85.
+\end{thebibliography}
+\end{document}

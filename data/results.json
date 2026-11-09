@@ -1,0 +1,2789 @@
+{
+ "n": {
+  "rows": 118507,
+  "items": 32309,
+  "statements": 79554,
+  "transitions": 36052,
+  "events": 33454,
+  "events_core": 17025,
+  "renamings": 6842,
+  "places_renamed": 5769,
+  "countries": 78,
+  "spelling": 1237,
+  "status": 3185,
+  "qualifier": 3730,
+  "galician": 1859,
+  "dup_same": 25,
+  "dup_two": 145,
+  "overridden": 2,
+  "since1800": 6686,
+  "dup_x": 170,
+  "minor": 8152,
+  "removed_errors": 2031,
+  "corrected_pc": 11.9,
+  "minor_pc": 47.9,
+  "renaming_pc": 40.2,
+  "ended_no_successor": 4946
+ },
+ "other_kinds": {
+  "street": 5614,
+  "station": 1647,
+  "institution": 3225,
+  "nature": 427,
+  "other": 2660,
+  "total": 13573
+ },
+ "waves": {
+  "colonial": {
+   "name": "Decolonisation",
+   "n": 22,
+   "pc": 0.3,
+   "countries": 12,
+   "top": [
+    [
+     "CD",
+     7
+    ],
+    [
+     "DZ",
+     3
+    ],
+    [
+     "ZM",
+     2
+    ],
+    [
+     "MZ",
+     2
+    ],
+    [
+     "MA",
+     1
+    ]
+   ],
+   "peak_decade": 1960,
+   "peak_decade_n": 11
+  },
+  "communist": {
+   "name": "Revolution and communism",
+   "n": 2852,
+   "pc": 41.7,
+   "countries": 28,
+   "top": [
+    [
+     "RO",
+     876
+    ],
+    [
+     "UA",
+     867
+    ],
+    [
+     "RU",
+     513
+    ],
+    [
+     "AM",
+     214
+    ],
+    [
+     "CN",
+     62
+    ]
+   ],
+   "peak_decade": 1960,
+   "peak_decade_n": 1096
+  },
+  "reversal": {
+   "name": "Undoing revolutionary and communist names",
+   "n": 529,
+   "pc": 7.7,
+   "countries": 15,
+   "top": [
+    [
+     "UA",
+     386
+    ],
+    [
+     "RU",
+     46
+    ],
+    [
+     "KZ",
+     23
+    ],
+    [
+     "AZ",
+     20
+    ],
+    [
+     "TJ",
+     13
+    ]
+   ],
+   "peak_decade": 2010,
+   "peak_decade_n": 273
+  },
+  "war": {
+   "name": "War and new borders",
+   "n": 107,
+   "pc": 1.6,
+   "countries": 5,
+   "top": [
+    [
+     "RU",
+     46
+    ],
+    [
+     "RO",
+     36
+    ],
+    [
+     "PL",
+     21
+    ],
+    [
+     "CZ",
+     2
+    ],
+    [
+     "LT",
+     2
+    ]
+   ],
+   "peak_decade": 1940,
+   "peak_decade_n": 70
+  },
+  "nation": {
+   "name": "Nation-building and language policy",
+   "n": 890,
+   "pc": 13.0,
+   "countries": 38,
+   "top": [
+    [
+     "UA",
+     174
+    ],
+    [
+     "ID",
+     126
+    ],
+    [
+     "AZ",
+     105
+    ],
+    [
+     "KZ",
+     100
+    ],
+    [
+     "AM",
+     62
+    ]
+   ],
+   "peak_decade": 1990,
+   "peak_decade_n": 297
+  },
+  "merger": {
+   "name": "Mergers and administrative reform",
+   "n": 548,
+   "pc": 8.0,
+   "countries": 27,
+   "top": [
+    [
+     "CN",
+     171
+    ],
+    [
+     "JP",
+     119
+    ],
+    [
+     "FR",
+     71
+    ],
+    [
+     "SE",
+     53
+    ],
+    [
+     "CA",
+     26
+    ]
+   ],
+   "peak_decade": 2010,
+   "peak_decade_n": 83
+  },
+  "other": {
+   "name": "Other renamings",
+   "n": 1894,
+   "pc": 27.7,
+   "countries": 54,
+   "top": [
+    [
+     "FR",
+     471
+    ],
+    [
+     "JP",
+     413
+    ],
+    [
+     "CA",
+     195
+    ],
+    [
+     "RU",
+     103
+    ],
+    [
+     "RO",
+     101
+    ]
+   ],
+   "peak_decade": 1930,
+   "peak_decade_n": 209
+  }
+ },
+ "political_pc": 64.3,
+ "decades": [
+  {
+   "decade": 1800,
+   "total": 14,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 2,
+   "other": 12
+  },
+  {
+   "decade": 1810,
+   "total": 79,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 8,
+   "war": 0,
+   "nation": 0,
+   "merger": 1,
+   "other": 70
+  },
+  {
+   "decade": 1820,
+   "total": 15,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 1,
+   "other": 14
+  },
+  {
+   "decade": 1830,
+   "total": 16,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 0,
+   "other": 16
+  },
+  {
+   "decade": 1840,
+   "total": 18,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 0,
+   "other": 18
+  },
+  {
+   "decade": 1850,
+   "total": 38,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 1,
+   "other": 37
+  },
+  {
+   "decade": 1860,
+   "total": 32,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 1,
+   "other": 31
+  },
+  {
+   "decade": 1870,
+   "total": 43,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 3,
+   "other": 40
+  },
+  {
+   "decade": 1880,
+   "total": 94,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 16,
+   "other": 78
+  },
+  {
+   "decade": 1890,
+   "total": 232,
+   "colonial": 0,
+   "communist": 1,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 34,
+   "other": 197
+  },
+  {
+   "decade": 1900,
+   "total": 185,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 0,
+   "war": 0,
+   "nation": 0,
+   "merger": 7,
+   "other": 178
+  },
+  {
+   "decade": 1910,
+   "total": 267,
+   "colonial": 0,
+   "communist": 42,
+   "reversal": 0,
+   "war": 1,
+   "nation": 15,
+   "merger": 45,
+   "other": 164
+  },
+  {
+   "decade": 1920,
+   "total": 535,
+   "colonial": 0,
+   "communist": 277,
+   "reversal": 0,
+   "war": 35,
+   "nation": 32,
+   "merger": 18,
+   "other": 173
+  },
+  {
+   "decade": 1930,
+   "total": 565,
+   "colonial": 0,
+   "communist": 333,
+   "reversal": 0,
+   "war": 0,
+   "nation": 8,
+   "merger": 15,
+   "other": 209
+  },
+  {
+   "decade": 1940,
+   "total": 931,
+   "colonial": 1,
+   "communist": 707,
+   "reversal": 0,
+   "war": 70,
+   "nation": 3,
+   "merger": 23,
+   "other": 127
+  },
+  {
+   "decade": 1950,
+   "total": 441,
+   "colonial": 1,
+   "communist": 243,
+   "reversal": 22,
+   "war": 1,
+   "nation": 7,
+   "merger": 63,
+   "other": 104
+  },
+  {
+   "decade": 1960,
+   "total": 1242,
+   "colonial": 11,
+   "communist": 1096,
+   "reversal": 19,
+   "war": 0,
+   "nation": 2,
+   "merger": 11,
+   "other": 103
+  },
+  {
+   "decade": 1970,
+   "total": 185,
+   "colonial": 6,
+   "communist": 105,
+   "reversal": 2,
+   "war": 0,
+   "nation": 7,
+   "merger": 31,
+   "other": 34
+  },
+  {
+   "decade": 1980,
+   "total": 110,
+   "colonial": 2,
+   "communist": 35,
+   "reversal": 8,
+   "war": 0,
+   "nation": 3,
+   "merger": 15,
+   "other": 47
+  },
+  {
+   "decade": 1990,
+   "total": 468,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 87,
+   "war": 0,
+   "nation": 297,
+   "merger": 36,
+   "other": 48
+  },
+  {
+   "decade": 2000,
+   "total": 282,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 12,
+   "war": 0,
+   "nation": 201,
+   "merger": 55,
+   "other": 14
+  },
+  {
+   "decade": 2010,
+   "total": 526,
+   "colonial": 1,
+   "communist": 0,
+   "reversal": 273,
+   "war": 0,
+   "nation": 130,
+   "merger": 83,
+   "other": 39
+  },
+  {
+   "decade": 2020,
+   "total": 368,
+   "colonial": 0,
+   "communist": 0,
+   "reversal": 98,
+   "war": 0,
+   "nation": 185,
+   "merger": 58,
+   "other": 27
+  }
+ ],
+ "peak_decades": [
+  {
+   "decade": 1960,
+   "n": 1242,
+   "main_wave": "communist",
+   "main_n": 1096
+  },
+  {
+   "decade": 1940,
+   "n": 931,
+   "main_wave": "communist",
+   "main_n": 707
+  },
+  {
+   "decade": 1930,
+   "n": 565,
+   "main_wave": "communist",
+   "main_n": 333
+  },
+  {
+   "decade": 1920,
+   "n": 535,
+   "main_wave": "communist",
+   "main_n": 277
+  },
+  {
+   "decade": 2010,
+   "n": 526,
+   "main_wave": "reversal",
+   "main_n": 273
+  }
+ ],
+ "peak_years": [
+  {
+   "year": 1964,
+   "iso": "RO",
+   "country": "Romania",
+   "n": 596
+  },
+  {
+   "year": 2016,
+   "iso": "UA",
+   "country": "Ukraine",
+   "n": 261
+  },
+  {
+   "year": 2024,
+   "iso": "UA",
+   "country": "Ukraine",
+   "n": 219
+  },
+  {
+   "year": 1946,
+   "iso": "UA",
+   "country": "Ukraine",
+   "n": 192
+  },
+  {
+   "year": 1968,
+   "iso": "RO",
+   "country": "Romania",
+   "n": 187
+  },
+  {
+   "year": 1945,
+   "iso": "UA",
+   "country": "Ukraine",
+   "n": 132
+  },
+  {
+   "year": 1992,
+   "iso": "AZ",
+   "country": "Azerbaijan",
+   "n": 67
+  },
+  {
+   "year": 1948,
+   "iso": "UA",
+   "country": "Ukraine",
+   "n": 62
+  }
+ ],
+ "countries": [
+  {
+   "iso": "UA",
+   "country": "Ukraine",
+   "n": 1515,
+   "places": 1190,
+   "main_wave": "communist",
+   "pc_of_all": 22.1
+  },
+  {
+   "iso": "RO",
+   "country": "Romania",
+   "n": 1053,
+   "places": 944,
+   "main_wave": "communist",
+   "pc_of_all": 15.4
+  },
+  {
+   "iso": "RU",
+   "country": "Russia",
+   "n": 777,
+   "places": 591,
+   "main_wave": "communist",
+   "pc_of_all": 11.4
+  },
+  {
+   "iso": "FR",
+   "country": "France",
+   "n": 563,
+   "places": 524,
+   "main_wave": "other",
+   "pc_of_all": 8.2
+  },
+  {
+   "iso": "JP",
+   "country": "Japan",
+   "n": 532,
+   "places": 519,
+   "main_wave": "other",
+   "pc_of_all": 7.8
+  },
+  {
+   "iso": "CN",
+   "country": "China",
+   "n": 314,
+   "places": 246,
+   "main_wave": "merger",
+   "pc_of_all": 4.6
+  },
+  {
+   "iso": "AM",
+   "country": "Armenia",
+   "n": 290,
+   "places": 222,
+   "main_wave": "communist",
+   "pc_of_all": 4.2
+  },
+  {
+   "iso": "CA",
+   "country": "Canada",
+   "n": 221,
+   "places": 206,
+   "main_wave": "other",
+   "pc_of_all": 3.2
+  },
+  {
+   "iso": "AZ",
+   "country": "Azerbaijan",
+   "n": 184,
+   "places": 150,
+   "main_wave": "nation",
+   "pc_of_all": 2.7
+  },
+  {
+   "iso": "KZ",
+   "country": "Kazakhstan",
+   "n": 183,
+   "places": 145,
+   "main_wave": "nation",
+   "pc_of_all": 2.7
+  },
+  {
+   "iso": "ID",
+   "country": "Indonesia",
+   "n": 126,
+   "places": 126,
+   "main_wave": "nation",
+   "pc_of_all": 1.8
+  },
+  {
+   "iso": "BG",
+   "country": "Bulgaria",
+   "n": 115,
+   "places": 83,
+   "main_wave": "other",
+   "pc_of_all": 1.7
+  },
+  {
+   "iso": "HU",
+   "country": "Hungary",
+   "n": 113,
+   "places": 98,
+   "main_wave": "other",
+   "pc_of_all": 1.7
+  },
+  {
+   "iso": "SE",
+   "country": "Sweden",
+   "n": 88,
+   "places": 86,
+   "main_wave": "merger",
+   "pc_of_all": 1.3
+  },
+  {
+   "iso": "DE",
+   "country": "Germany",
+   "n": 75,
+   "places": 63,
+   "main_wave": "other",
+   "pc_of_all": 1.1
+  }
+ ],
+ "top5_pc": 64.9,
+ "former_ussr": {
+  "n": 3245,
+  "pc": 47.4
+ },
+ "continents": {
+  "Europe": 4648,
+  "Asia": 1875,
+  "North America": 256,
+  "Africa": 35,
+  "South America": 15,
+  "Oceania": 13
+ },
+ "most_renamed": [
+  {
+   "q": "Q1520",
+   "label": "Astana",
+   "iso": "KZ",
+   "n": 6,
+   "chain": [
+    {
+     "year": 1832,
+     "old": "Ак-Мола",
+     "new": "Акмолінськ",
+     "wave": "other"
+    },
+    {
+     "year": 1961,
+     "old": "Акмолинск",
+     "new": "Целиноград",
+     "wave": "communist"
+    },
+    {
+     "year": 1992,
+     "old": "Целиноград",
+     "new": "Акмола",
+     "wave": "nation"
+    },
+    {
+     "year": 1998,
+     "old": "Акмола",
+     "new": "Астана",
+     "wave": "nation"
+    },
+    {
+     "year": 2019,
+     "old": "Астана",
+     "new": "Нур-Султан",
+     "wave": "nation"
+    },
+    {
+     "year": 2022,
+     "old": "Нур-Султан",
+     "new": "Астана",
+     "wave": "nation"
+    }
+   ]
+  },
+  {
+   "q": "Q193413",
+   "label": "Rybinsk",
+   "iso": "RU",
+   "n": 6,
+   "chain": [
+    {
+     "year": 1504,
+     "old": "Усть-Шексна",
+     "new": "Рыбная слобода",
+     "wave": "other"
+    },
+    {
+     "year": 1777,
+     "old": "Рыбная слобода",
+     "new": "Рыбинск",
+     "wave": "other"
+    },
+    {
+     "year": 1946,
+     "old": "Рыбинск",
+     "new": "Щербаков",
+     "wave": "communist"
+    },
+    {
+     "year": 1957,
+     "old": "Щербаков",
+     "new": "Рыбинск",
+     "wave": "reversal"
+    },
+    {
+     "year": 1984,
+     "old": "Рыбинск",
+     "new": "Андропов",
+     "wave": "communist"
+    },
+    {
+     "year": 1989,
+     "old": "Андропов",
+     "new": "Рыбинск",
+     "wave": "reversal"
+    }
+   ]
+  },
+  {
+   "q": "Q7977",
+   "label": "Priozersk",
+   "iso": "RU",
+   "n": 6,
+   "chain": [
+    {
+     "year": 1580,
+     "old": "Корела",
+     "new": "Кексгольм",
+     "wave": "other"
+    },
+    {
+     "year": 1595,
+     "old": "Кексгольм",
+     "new": "Корела",
+     "wave": "other"
+    },
+    {
+     "year": 1611,
+     "old": "Корела",
+     "new": "Кексгольм",
+     "wave": "other"
+    },
+    {
+     "year": 1917,
+     "old": "Кексгольм",
+     "new": "Кякисалми",
+     "wave": "other"
+    },
+    {
+     "year": 1940,
+     "old": "Кякисалми",
+     "new": "Кексгольм",
+     "wave": "war"
+    },
+    {
+     "year": 1948,
+     "old": "Кексгольм",
+     "new": "Приозерск",
+     "wave": "war"
+    }
+   ]
+  },
+  {
+   "q": "Q1026923",
+   "label": "Velykodolynske",
+   "iso": "UA",
+   "n": 5,
+   "chain": [
+    {
+     "year": 1918,
+     "old": "Грос-Лібенталь",
+     "new": "Велика Аккаржа",
+     "wave": "communist"
+    },
+    {
+     "year": 1933,
+     "old": "Гросс-Либенталь",
+     "new": "Спартаковка",
+     "wave": "communist"
+    },
+    {
+     "year": 1939,
+     "old": "Спартаковка",
+     "new": "Большая Аккаржа",
+     "wave": "communist"
+    },
+    {
+     "year": 1941,
+     "old": "Велика Аккаржа",
+     "new": "Грос-Лібенталь",
+     "wave": "communist"
+    },
+    {
+     "year": 1945,
+     "old": "Грос-Лібенталь",
+     "new": "Великодолинське",
+     "wave": "communist"
+    }
+   ]
+  },
+  {
+   "q": "Q12119385",
+   "label": "Lustdorf",
+   "iso": "UA",
+   "n": 5,
+   "chain": [
+    {
+     "year": 1805,
+     "old": "Кайзерхайм",
+     "new": "Люстер",
+     "wave": "other"
+    },
+    {
+     "year": 1886,
+     "old": "Люстер",
+     "new": "Люстдорф",
+     "wave": "other"
+    },
+    {
+     "year": 1907,
+     "old": "Люстдорф",
+     "new": "Ольгіно",
+     "wave": "other"
+    },
+    {
+     "year": 1945,
+     "old": "Ольгіно",
+     "new": "Чорноморка",
+     "wave": "communist"
+    },
+    {
+     "year": 1991,
+     "old": "Чорноморка",
+     "new": "Люстдорф",
+     "wave": "nation"
+    }
+   ]
+  },
+  {
+   "q": "Q134279",
+   "label": "Luhansk",
+   "iso": "UA",
+   "n": 5,
+   "chain": [
+    {
+     "year": 1882,
+     "old": "Луганский завод",
+     "new": "Луганск",
+     "wave": "other"
+    },
+    {
+     "year": 1935,
+     "old": "Луганск",
+     "new": "Ворошиловград",
+     "wave": "communist"
+    },
+    {
+     "year": 1958,
+     "old": "Ворошиловград",
+     "new": "Луганськ",
+     "wave": "reversal"
+    },
+    {
+     "year": 1970,
+     "old": "Луганськ",
+     "new": "Ворошиловград",
+     "wave": "communist"
+    },
+    {
+     "year": 1990,
+     "old": "Ворошиловград",
+     "new": "Луганськ",
+     "wave": "reversal"
+    }
+   ]
+  },
+  {
+   "q": "Q168668",
+   "label": "Dobrich",
+   "iso": "BG",
+   "n": 5,
+   "chain": [
+    {
+     "year": 1882,
+     "old": "Хаджиоглу Пазарджик",
+     "new": "Добрич",
+     "wave": "other"
+    },
+    {
+     "year": 1916,
+     "old": "Добрич",
+     "new": "Базаржик",
+     "wave": "other"
+    },
+    {
+     "year": 1940,
+     "old": "Базаржик",
+     "new": "Добрич",
+     "wave": "other"
+    },
+    {
+     "year": 1949,
+     "old": "Добрич",
+     "new": "Толбухин",
+     "wave": "communist"
+    },
+    {
+     "year": 1990,
+     "old": "Толбухин",
+     "new": "Добрич",
+     "wave": "reversal"
+    }
+   ]
+  },
+  {
+   "q": "Q2358977",
+   "label": "Oktyabrskoye",
+   "iso": "RU",
+   "n": 5,
+   "chain": [
+    {
+     "year": 1859,
+     "old": "Шолхи",
+     "new": "Камбилеевская",
+     "wave": "other"
+    },
+    {
+     "year": 1867,
+     "old": "Камбилеевская",
+     "new": "Тарский",
+     "wave": "other"
+    },
+    {
+     "year": 1922,
+     "old": "Тарский",
+     "new": "Шолхи",
+     "wave": "communist"
+    },
+    {
+     "year": 1944,
+     "old": "Шолхи",
+     "new": "Карца",
+     "wave": "communist"
+    },
+    {
+     "year": 1965,
+     "old": "Карца",
+     "new": "Октябрьское",
+     "wave": "communist"
+    }
+   ]
+  },
+  {
+   "q": "Q61480433",
+   "label": "Saritsın",
+   "iso": "RU",
+   "n": 5,
+   "chain": [
+    {
+     "year": 1633,
+     "old": "Чёрногрязская",
+     "new": "Чёрная Грязь",
+     "wave": "other"
+    },
+    {
+     "year": 1684,
+     "old": "Чёрная Грязь",
+     "new": "Богородское",
+     "wave": "other"
+    },
+    {
+     "year": 1712,
+     "old": "Богородское",
+     "new": "Чёрная Грязь",
+     "wave": "other"
+    },
+    {
+     "year": 1775,
+     "old": "Чёрная Грязь",
+     "new": "Царицыно",
+     "wave": "other"
+    },
+    {
+     "year": 1918,
+     "old": "Царицыно",
+     "new": "Ленино",
+     "wave": "communist"
+    }
+   ]
+  },
+  {
+   "q": "Q837093",
+   "label": "Kadiivka",
+   "iso": "UA",
+   "n": 5,
+   "chain": [
+    {
+     "year": 1898,
+     "old": "Шубінка",
+     "new": "Кадіївка",
+     "wave": "other"
+    },
+    {
+     "year": 1937,
+     "old": "Кадіївка",
+     "new": "Серго",
+     "wave": "communist"
+    },
+    {
+     "year": 1943,
+     "old": "Серго",
+     "new": "Кадіївка",
+     "wave": "communist"
+    },
+    {
+     "year": 1978,
+     "old": "Кадіївка",
+     "new": "Стаханов",
+     "wave": "communist"
+    },
+    {
+     "year": 2016,
+     "old": "Стаханов",
+     "new": "Кадіївка",
+     "wave": "reversal"
+    }
+   ]
+  },
+  {
+   "q": "Q927929",
+   "label": "Huangzhou District",
+   "iso": "CN",
+   "n": 5,
+   "chain": [
+    {
+     "year": 1951,
+     "old": "黄冈县",
+     "new": "黄州镇",
+     "wave": "communist"
+    },
+    {
+     "year": 1955,
+     "old": "黄州镇",
+     "new": "黄冈县",
+     "wave": "communist"
+    },
+    {
+     "year": 1983,
+     "old": "黄冈县",
+     "new": "黄州区",
+     "wave": "merger"
+    },
+    {
+     "year": 1987,
+     "old": "黄州区",
+     "new": "黄冈县",
+     "wave": "merger"
+    },
+    {
+     "year": 1990,
+     "old": "黄冈县",
+     "new": "黄州市",
+     "wave": "merger"
+    }
+   ]
+  },
+  {
+   "q": "Q11720",
+   "label": "Shenyang",
+   "iso": "CN",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1912,
+     "old": "Мукден",
+     "new": "Фэнтянь",
+     "wave": "other"
+    },
+    {
+     "year": 1929,
+     "old": "Фэнтянь",
+     "new": "Шэньян",
+     "wave": "other"
+    },
+    {
+     "year": 1932,
+     "old": "Шэньян",
+     "new": "Мукден",
+     "wave": "other"
+    },
+    {
+     "year": 1945,
+     "old": "Мукден",
+     "new": "Шэньян",
+     "wave": "other"
+    }
+   ]
+  },
+  {
+   "q": "Q132832",
+   "label": "Budyonnovsk",
+   "iso": "RU",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1921,
+     "old": "Святой Крест",
+     "new": "Прикумск",
+     "wave": "communist"
+    },
+    {
+     "year": 1935,
+     "old": "Прикумск",
+     "new": "Будённовск",
+     "wave": "communist"
+    },
+    {
+     "year": 1957,
+     "old": "Будённовск",
+     "new": "Прикумск",
+     "wave": "reversal"
+    },
+    {
+     "year": 1973,
+     "old": "Прикумск",
+     "new": "Будённовск",
+     "wave": "communist"
+    }
+   ]
+  },
+  {
+   "q": "Q15339",
+   "label": "Shlisselburg",
+   "iso": "RU",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1611,
+     "old": "Орешек",
+     "new": "Нотебург",
+     "wave": "other"
+    },
+    {
+     "year": 1702,
+     "old": "Нотебург",
+     "new": "Шлиссельбург",
+     "wave": "other"
+    },
+    {
+     "year": 1944,
+     "old": "Шлиссельбург",
+     "new": "Петрокрепость",
+     "wave": "communist"
+    },
+    {
+     "year": 1993,
+     "old": "Петрокрепость",
+     "new": "Шлиссельбург",
+     "wave": "nation"
+    }
+   ]
+  },
+  {
+   "q": "Q158292",
+   "label": "Kropyvnytskyi",
+   "iso": "UA",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1924,
+     "old": "Єлисаветград",
+     "new": "Зінов'євськ",
+     "wave": "communist"
+    },
+    {
+     "year": 1934,
+     "old": "Зінов'євськ",
+     "new": "Кірово",
+     "wave": "communist"
+    },
+    {
+     "year": 1939,
+     "old": "Кірово",
+     "new": "Кіровоград",
+     "wave": "communist"
+    },
+    {
+     "year": 2016,
+     "old": "Кіровоград",
+     "new": "Кропивницький",
+     "wave": "reversal"
+    }
+   ]
+  },
+  {
+   "q": "Q161144",
+   "label": "Alchevsk",
+   "iso": "UA",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1903,
+     "old": "Юр'ївка",
+     "new": "Алчевське",
+     "wave": "other"
+    },
+    {
+     "year": 1926,
+     "old": "Алчевське",
+     "new": "Ворошиловськ",
+     "wave": "communist"
+    },
+    {
+     "year": 1961,
+     "old": "Ворошиловськ",
+     "new": "Комунарськ",
+     "wave": "communist"
+    },
+    {
+     "year": 1991,
+     "old": "Комунарськ",
+     "new": "Алчевськ",
+     "wave": "reversal"
+    }
+   ]
+  },
+  {
+   "q": "Q162084",
+   "label": "Chystiakove",
+   "iso": "UA",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1840,
+     "old": "Олексіївка",
+     "new": "Олексієве-Леонове",
+     "wave": "other"
+    },
+    {
+     "year": 1868,
+     "old": "Олексієве-Леонове",
+     "new": "Чистякове",
+     "wave": "other"
+    },
+    {
+     "year": 1964,
+     "old": "Chystiakove",
+     "new": "Torez",
+     "wave": "communist"
+    },
+    {
+     "year": 2016,
+     "old": "Torez",
+     "new": "Chystiakove",
+     "wave": "reversal"
+    }
+   ]
+  },
+  {
+   "q": "Q1652513",
+   "label": "Molchanovsky District",
+   "iso": "RU",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1930,
+     "old": "Молчановский район",
+     "new": "Кривошеинский район",
+     "wave": "communist"
+    },
+    {
+     "year": 1939,
+     "old": "Кривошеинский район",
+     "new": "Молчановский район",
+     "wave": "communist"
+    },
+    {
+     "year": 1963,
+     "old": "Молчановский район",
+     "new": "Кривошеинский район",
+     "wave": "communist"
+    },
+    {
+     "year": 1965,
+     "old": "Кривошеинский район",
+     "new": "Молчановский район",
+     "wave": "communist"
+    }
+   ]
+  },
+  {
+   "q": "Q187977",
+   "label": "Ghafurov",
+   "iso": "TJ",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1953,
+     "old": "Стансияи-Ленинобод",
+     "new": "Советобод",
+     "wave": "reversal"
+    },
+    {
+     "year": 1962,
+     "old": "Советобод",
+     "new": "Хуҷанд",
+     "wave": "communist"
+    },
+    {
+     "year": 1964,
+     "old": "Хуҷанд",
+     "new": "Советобод",
+     "wave": "communist"
+    },
+    {
+     "year": 1978,
+     "old": "Советобод",
+     "new": "Ғафуров",
+     "wave": "communist"
+    }
+   ]
+  },
+  {
+   "q": "Q190118",
+   "label": "La Roche-sur-Yon",
+   "iso": "FR",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1804,
+     "old": "La Roche-sur-Yon",
+     "new": "Napoléon",
+     "wave": "other"
+    },
+    {
+     "year": 1814,
+     "old": "La Roche-sur-Yon",
+     "new": "Bourbon-Vendée",
+     "wave": "other"
+    },
+    {
+     "year": 1848,
+     "old": "Bourbon-Vendée",
+     "new": "Napoléon",
+     "wave": "other"
+    },
+    {
+     "year": 1870,
+     "old": "Napoléon-Vendée",
+     "new": "La Roche-sur-Yon",
+     "wave": "other"
+    }
+   ]
+  },
+  {
+   "q": "Q194452",
+   "label": "Karakol",
+   "iso": "KG",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1889,
+     "old": "Каракол",
+     "new": "Пржевальск",
+     "wave": "other"
+    },
+    {
+     "year": 1922,
+     "old": "Пржевальск",
+     "new": "Каракол",
+     "wave": "communist"
+    },
+    {
+     "year": 1939,
+     "old": "Каракол",
+     "new": "Пржевальск",
+     "wave": "communist"
+    },
+    {
+     "year": 1992,
+     "old": "Пржевальск",
+     "new": "Каракол",
+     "wave": "nation"
+    }
+   ]
+  },
+  {
+   "q": "Q19559301",
+   "label": null,
+   "iso": "UA",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1946,
+     "old": "Берківська сільська рада",
+     "new": "Березинська сільська рада",
+     "wave": "communist"
+    },
+    {
+     "year": 1960,
+     "old": "Березинська сільська рада",
+     "new": "Горинська сільська рада",
+     "wave": "communist"
+    },
+    {
+     "year": 1965,
+     "old": "Горинська сільська рада",
+     "new": "Березинська сільська рада",
+     "wave": "communist"
+    },
+    {
+     "year": 1988,
+     "old": "Березинська сільська рада",
+     "new": "Горинська сільська рада",
+     "wave": "communist"
+    }
+   ]
+  },
+  {
+   "q": "Q1996181",
+   "label": "Fuzuli",
+   "iso": "AZ",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1827,
+     "old": "Qarabulaq",
+     "new": "Qaryagin",
+     "wave": "other"
+    },
+    {
+     "year": 1929,
+     "old": "Qaryagin",
+     "new": "Sərdar",
+     "wave": "communist"
+    },
+    {
+     "year": 1931,
+     "old": "Sərdar",
+     "new": "Qaryagin",
+     "wave": "communist"
+    },
+    {
+     "year": 1959,
+     "old": "Qaryagin",
+     "new": "Füzuli",
+     "wave": "communist"
+    }
+   ]
+  },
+  {
+   "q": "Q2001643",
+   "label": "Masis",
+   "iso": "AM",
+   "n": 4,
+   "chain": [
+    {
+     "year": 1924,
+     "old": "Ուլուխանլու",
+     "new": "Նարիմանլու",
+     "wave": "communist"
+    },
+    {
+     "year": 1937,
+     "old": "Նարիմանլու",
+     "new": "Զանգիբասար",
+     "wave": "communist"
+    },
+    {
+     "year": 1955,
+     "old": "Զանգիբասար",
+     "new": "Հրազդան",
+     "wave": "communist"
+    },
+    {
+     "year": 1971,
+     "old": "Հրազդան",
+     "new": "Մասիս",
+     "wave": "communist"
+    }
+   ]
+  },
+  {
+   "q": "Q208471",
+   "label": "Kaifeng",
+   "iso": "CN",
+   "n": 4,
+   "chain": [
+    {
+     "year": 907,
+     "old": "开封",
+     "new": "东都",
+     "wave": "other"
+    },
+    {
+     "year": 947,
+     "old": "东都",
+     "new": "东京开封府",
+     "wave": "other"
+    },
+    {
+     "year": 1127,
+     "old": "东京开封府",
+     "new": "汴京",
+     "wave": "other"
+    },
+    {
+     "year": 1153,
+     "old": "汴京",
+     "new": "南京开封府",
+     "wave": "other"
+    }
+   ]
+  }
+ ],
+ "n_renamed_3plus": 158,
+ "n_renamed_2plus": 860,
+ "back": {
+  "events": 338,
+  "places": 303,
+  "by_wave": {
+   "colonial": 1,
+   "communist": 103,
+   "reversal": 89,
+   "war": 3,
+   "nation": 70,
+   "merger": 18,
+   "other": 54
+  }
+ },
+ "ex": {
+  "volgograd": {
+   "q": "Q914",
+   "label": "Volgograd",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1925,
+     "old": "Tsaritsyn",
+     "new": "Stalingrad",
+     "wave": "communist"
+    },
+    {
+     "year": 1961,
+     "old": "Stalingrad",
+     "new": "Volgograd",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "st_petersburg": {
+   "q": "Q656",
+   "label": "Saint Petersburg",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1914,
+     "old": "Санкт-Петербург",
+     "new": "Петроград",
+     "wave": "other"
+    },
+    {
+     "year": 1924,
+     "old": "Петроград",
+     "new": "Ленинград",
+     "wave": "communist"
+    },
+    {
+     "year": 1991,
+     "old": "Ленинград",
+     "new": "Санкт-Петербург",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "nizhny": {
+   "q": "Q891",
+   "label": "Nizhny Novgorod",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1932,
+     "old": "Нижний Новгород",
+     "new": "Горький",
+     "wave": "communist"
+    },
+    {
+     "year": 1990,
+     "old": "Горький",
+     "new": "Нижний Новгород",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "yekaterinburg": {
+   "q": "Q887",
+   "label": "Yekaterinburg",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1924,
+     "old": "Екатеринбург",
+     "new": "Свердловск",
+     "wave": "communist"
+    },
+    {
+     "year": 1991,
+     "old": "Свердловск",
+     "new": "Екатеринбург",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "samara": {
+   "q": "Q894",
+   "label": "Samara",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1935,
+     "old": "Самара",
+     "new": "Куйбышев",
+     "wave": "communist"
+    },
+    {
+     "year": 1991,
+     "old": "Куйбышев",
+     "new": "Самара",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "tver": {
+   "q": "Q2288",
+   "label": "Tver",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1931,
+     "old": "Тверь",
+     "new": "Калинин",
+     "wave": "communist"
+    },
+    {
+     "year": 1990,
+     "old": "Калинин",
+     "new": "Тверь",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "astana": {
+   "q": "Q1520",
+   "label": "Astana",
+   "iso": "KZ",
+   "chain": [
+    {
+     "year": 1832,
+     "old": "Ак-Мола",
+     "new": "Акмолінськ",
+     "wave": "other"
+    },
+    {
+     "year": 1961,
+     "old": "Акмолинск",
+     "new": "Целиноград",
+     "wave": "communist"
+    },
+    {
+     "year": 1992,
+     "old": "Целиноград",
+     "new": "Акмола",
+     "wave": "nation"
+    },
+    {
+     "year": 1998,
+     "old": "Акмола",
+     "new": "Астана",
+     "wave": "nation"
+    },
+    {
+     "year": 2019,
+     "old": "Астана",
+     "new": "Нур-Султан",
+     "wave": "nation"
+    },
+    {
+     "year": 2022,
+     "old": "Нур-Султан",
+     "new": "Астана",
+     "wave": "nation"
+    }
+   ]
+  },
+  "luhansk": {
+   "q": "Q134279",
+   "label": "Luhansk",
+   "iso": "UA",
+   "chain": [
+    {
+     "year": 1882,
+     "old": "Луганский завод",
+     "new": "Луганск",
+     "wave": "other"
+    },
+    {
+     "year": 1935,
+     "old": "Луганск",
+     "new": "Ворошиловград",
+     "wave": "communist"
+    },
+    {
+     "year": 1958,
+     "old": "Ворошиловград",
+     "new": "Луганськ",
+     "wave": "reversal"
+    },
+    {
+     "year": 1970,
+     "old": "Луганськ",
+     "new": "Ворошиловград",
+     "wave": "communist"
+    },
+    {
+     "year": 1990,
+     "old": "Ворошиловград",
+     "new": "Луганськ",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "vladikavkaz": {
+   "q": "Q5239",
+   "label": "Vladikavkaz",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1931,
+     "old": "Владикавказ",
+     "new": "Орджоникидзе",
+     "wave": "communist"
+    },
+    {
+     "year": 1944,
+     "old": "Орджоникидзе",
+     "new": "Дзауджикау",
+     "wave": "communist"
+    },
+    {
+     "year": 1954,
+     "old": "Дзауджикау",
+     "new": "Орджоникидзе",
+     "wave": "communist"
+    },
+    {
+     "year": 1990,
+     "old": "Орджоникидзе",
+     "new": "Владикавказ",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "dnipro": {
+   "q": "Q48256",
+   "label": "Dnipro",
+   "iso": "UA",
+   "chain": [
+    {
+     "year": 1796,
+     "old": "Кацярынаслаў",
+     "new": "Наварасейск",
+     "wave": "other"
+    },
+    {
+     "year": 1802,
+     "old": "Новоросійськ",
+     "new": "Катеринослав",
+     "wave": "other"
+    },
+    {
+     "year": 1926,
+     "old": "Катеринослав",
+     "new": "Дніпропетровськ",
+     "wave": "communist"
+    },
+    {
+     "year": 2016,
+     "old": "Дніпропетровськ",
+     "new": "Дніпро",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "donetsk": {
+   "q": "Q43070",
+   "label": "Donetsk",
+   "iso": "UA",
+   "chain": [
+    {
+     "year": 1869,
+     "old": "Александровка",
+     "new": "Юзовка",
+     "wave": "other"
+    },
+    {
+     "year": 1924,
+     "old": "Юзівка",
+     "new": "Сталін",
+     "wave": "communist"
+    },
+    {
+     "year": 1961,
+     "old": "Сталіно",
+     "new": "Донецьк",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "kropyvnytskyi": {
+   "q": "Q158292",
+   "label": "Kropyvnytskyi",
+   "iso": "UA",
+   "chain": [
+    {
+     "year": 1924,
+     "old": "Єлисаветград",
+     "new": "Зінов'євськ",
+     "wave": "communist"
+    },
+    {
+     "year": 1934,
+     "old": "Зінов'євськ",
+     "new": "Кірово",
+     "wave": "communist"
+    },
+    {
+     "year": 1939,
+     "old": "Кірово",
+     "new": "Кіровоград",
+     "wave": "communist"
+    },
+    {
+     "year": 2016,
+     "old": "Кіровоград",
+     "new": "Кропивницький",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "mariupol": {
+   "q": "Q37133",
+   "label": "Mariupol",
+   "iso": "UA",
+   "chain": [
+    {
+     "year": 1779,
+     "old": "Павловск",
+     "new": "Мариуполь",
+     "wave": "other"
+    },
+    {
+     "year": 1949,
+     "old": "Маріуполь",
+     "new": "Жданов",
+     "wave": "communist"
+    },
+    {
+     "year": 1989,
+     "old": "Жданов",
+     "new": "Маріуполь",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "chemnitz": {
+   "q": "Q2795",
+   "label": "Chemnitz",
+   "iso": "DE",
+   "chain": [
+    {
+     "year": 1953,
+     "old": "Chemnitz",
+     "new": "Karl-Marx-Stadt",
+     "wave": "communist"
+    },
+    {
+     "year": 1990,
+     "old": "Karl-Marx-Stadt",
+     "new": "Chemnitz",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "katowice": {
+   "q": "Q588",
+   "label": "Katowice",
+   "iso": "PL",
+   "chain": [
+    {
+     "year": 1953,
+     "old": "Katowice",
+     "new": "Stalinogród",
+     "wave": "communist"
+    },
+    {
+     "year": 1956,
+     "old": "Stalinogród",
+     "new": "Katowice",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "brasov": {
+   "q": "Q82174",
+   "label": "Brașov",
+   "iso": "RO",
+   "chain": [
+    {
+     "year": 1950,
+     "old": "Brașov",
+     "new": "Orașul Stalin",
+     "wave": "communist"
+    },
+    {
+     "year": 1960,
+     "old": "Orașul Stalin",
+     "new": "Brașov",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "varna": {
+   "q": "Q6506",
+   "label": "Varna",
+   "iso": "BG",
+   "chain": [
+    {
+     "year": 1949,
+     "old": "Варна",
+     "new": "Сталин",
+     "wave": "communist"
+    },
+    {
+     "year": 1956,
+     "old": "Сталин",
+     "new": "Варна",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "podgorica": {
+   "q": "Q23564",
+   "label": "Podgorica",
+   "iso": "ME",
+   "chain": [
+    {
+     "year": 1400,
+     "old": "Рибница",
+     "new": "Подгорица",
+     "wave": "other"
+    },
+    {
+     "year": 1952,
+     "old": "Podgorica",
+     "new": "Titograd",
+     "wave": "communist"
+    },
+    {
+     "year": 1992,
+     "old": "Титоград",
+     "new": "Подгорица",
+     "wave": "nation"
+    }
+   ]
+  },
+  "bishkek": {
+   "q": "Q9361",
+   "label": "Bishkek",
+   "iso": "KG",
+   "chain": [
+    {
+     "year": 1926,
+     "old": "Pispek",
+     "new": "Frunze",
+     "wave": "communist"
+    },
+    {
+     "year": 1991,
+     "old": "Frunze",
+     "new": "Biskek",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "dushanbe": {
+   "q": "Q9365",
+   "label": "Dushanbe",
+   "iso": "TJ",
+   "chain": [
+    {
+     "year": 1929,
+     "old": "Дюшанбе",
+     "new": "Сталинабад",
+     "wave": "communist"
+    },
+    {
+     "year": 1961,
+     "old": "Сталинобод",
+     "new": "Душанбе",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "gyumri": {
+   "q": "Q199500",
+   "label": "Gyumri",
+   "iso": "AM",
+   "chain": [
+    {
+     "year": 1840,
+     "old": "Գյումրի",
+     "new": "Ալեքսանդրապոլ",
+     "wave": "other"
+    },
+    {
+     "year": 1924,
+     "old": "Ալեքսանդրապոլ",
+     "new": "Լենինական",
+     "wave": "communist"
+    },
+    {
+     "year": 1990,
+     "old": "Լենինական",
+     "new": "Գյումրի",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "almaty": {
+   "q": "Q35493",
+   "label": "Almaty",
+   "iso": "KZ",
+   "chain": [
+    {
+     "year": 1854,
+     "old": "Заилийское",
+     "new": "Верное",
+     "wave": "other"
+    },
+    {
+     "year": 1867,
+     "old": "Верное",
+     "new": "Верный",
+     "wave": "other"
+    },
+    {
+     "year": 1921,
+     "old": "Верный",
+     "new": "Алма-Ата",
+     "wave": "communist"
+    },
+    {
+     "year": 1993,
+     "old": "Алма-Ата",
+     "new": "Алматы",
+     "wave": "nation"
+    }
+   ]
+  },
+  "kinshasa": {
+   "q": "Q3838",
+   "label": "Kinshasa",
+   "iso": "CD",
+   "chain": [
+    {
+     "year": 1966,
+     "old": "Léopoldville",
+     "new": "Kinshasa",
+     "wave": "colonial"
+    }
+   ]
+  },
+  "harare": {
+   "q": "Q3921",
+   "label": "Harare",
+   "iso": "ZW",
+   "chain": [
+    {
+     "year": 1982,
+     "old": "Salisbury",
+     "new": "Harare",
+     "wave": "colonial"
+    }
+   ]
+  },
+  "maputo": {
+   "q": "Q3889",
+   "label": "Maputo",
+   "iso": "MZ",
+   "chain": [
+    {
+     "year": 1976,
+     "old": "Lourenço Marques",
+     "new": "Maputo",
+     "wave": "colonial"
+    }
+   ]
+  },
+  "mumbai": {
+   "q": "Q1156",
+   "label": "Mumbai",
+   "iso": "IN",
+   "chain": [
+    {
+     "year": 1995,
+     "old": "Bombay",
+     "new": "Mumbai",
+     "wave": "nation"
+    }
+   ]
+  },
+  "chennai": {
+   "q": "Q1352",
+   "label": "Chennai",
+   "iso": "IN",
+   "chain": [
+    {
+     "year": 1996,
+     "old": "Madras",
+     "new": "Chennai",
+     "wave": "nation"
+    }
+   ]
+  },
+  "oslo": {
+   "q": "Q585",
+   "label": "Oslo",
+   "iso": "NO",
+   "chain": [
+    {
+     "year": 1624,
+     "old": "Oslo",
+     "new": "Christiania",
+     "wave": "other"
+    },
+    {
+     "year": 1925,
+     "old": "Christiania",
+     "new": "Oslo",
+     "wave": "nation"
+    }
+   ]
+  },
+  "tallinn": {
+   "q": "Q1770",
+   "label": "Tallinn",
+   "iso": "EE",
+   "chain": [
+    {
+     "year": 1919,
+     "old": "Ревель",
+     "new": "Таллин",
+     "wave": "nation"
+    }
+   ]
+  },
+  "gdansk": {
+   "q": "Q1792",
+   "label": "Gdańsk",
+   "iso": "PL",
+   "chain": [
+    {
+     "year": 1793,
+     "old": "Gdańsk",
+     "new": "Danzig",
+     "wave": "other"
+    },
+    {
+     "year": 1945,
+     "old": "Danzig",
+     "new": "Gdańsk",
+     "wave": "war"
+    }
+   ]
+  },
+  "wroclaw": {
+   "q": "Q1799",
+   "label": "Wrocław",
+   "iso": "PL",
+   "chain": [
+    {
+     "year": 1945,
+     "old": "Breslau",
+     "new": "Wrocław",
+     "wave": "war"
+    }
+   ]
+  },
+  "kaliningrad": {
+   "q": "Q1829",
+   "label": "Kaliningrad",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1946,
+     "old": "Кёнигсберг",
+     "new": "Калининград",
+     "wave": "communist"
+    }
+   ]
+  },
+  "lyon": {
+   "q": "Q456",
+   "label": "Lyon",
+   "iso": "FR",
+   "chain": [
+    {
+     "year": 1793,
+     "old": "Lyon",
+     "new": "Commune-Affranchie",
+     "wave": "communist"
+    },
+    {
+     "year": 1814,
+     "old": "Commune-Affranchie",
+     "new": "Lyon",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "bordeaux": {
+   "q": "Q1479",
+   "label": "Bordeaux",
+   "iso": "FR",
+   "chain": [
+    {
+     "year": 1793,
+     "old": "Bordeaux",
+     "new": "Commune-Franklin",
+     "wave": "communist"
+    },
+    {
+     "year": 1814,
+     "old": "Commune-Franklin",
+     "new": "Bordeaux",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "rybinsk": {
+   "q": "Q193413",
+   "label": "Rybinsk",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1504,
+     "old": "Усть-Шексна",
+     "new": "Рыбная слобода",
+     "wave": "other"
+    },
+    {
+     "year": 1777,
+     "old": "Рыбная слобода",
+     "new": "Рыбинск",
+     "wave": "other"
+    },
+    {
+     "year": 1946,
+     "old": "Рыбинск",
+     "new": "Щербаков",
+     "wave": "communist"
+    },
+    {
+     "year": 1957,
+     "old": "Щербаков",
+     "new": "Рыбинск",
+     "wave": "reversal"
+    },
+    {
+     "year": 1984,
+     "old": "Рыбинск",
+     "new": "Андропов",
+     "wave": "communist"
+    },
+    {
+     "year": 1989,
+     "old": "Андропов",
+     "new": "Рыбинск",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "hcmc": {
+   "q": "Q1854",
+   "label": "Ho Chi Minh City",
+   "iso": "VN",
+   "chain": [
+    {
+     "year": 1976,
+     "old": "Sài Gòn",
+     "new": "Thành phố Hồ Chí Minh",
+     "wave": "communist"
+    }
+   ]
+  },
+  "la_roche": {
+   "q": "Q190118",
+   "label": "La Roche-sur-Yon",
+   "iso": "FR",
+   "chain": [
+    {
+     "year": 1804,
+     "old": "La Roche-sur-Yon",
+     "new": "Napoléon",
+     "wave": "other"
+    },
+    {
+     "year": 1814,
+     "old": "La Roche-sur-Yon",
+     "new": "Bourbon-Vendée",
+     "wave": "other"
+    },
+    {
+     "year": 1848,
+     "old": "Bourbon-Vendée",
+     "new": "Napoléon",
+     "wave": "other"
+    },
+    {
+     "year": 1870,
+     "old": "Napoléon-Vendée",
+     "new": "La Roche-sur-Yon",
+     "wave": "other"
+    }
+   ]
+  },
+  "taipei": {
+   "q": "Q1867",
+   "label": "Taipei",
+   "iso": "TW",
+   "chain": [
+    {
+     "year": 1895,
+     "old": "Тайбэй",
+     "new": "Тайхоку",
+     "wave": "other"
+    },
+    {
+     "year": 1945,
+     "old": "Тайхоку",
+     "new": "Тайбэй",
+     "wave": "colonial"
+    }
+   ]
+  },
+  "kirov": {
+   "q": "Q5384",
+   "label": "Kirov",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1457,
+     "old": "Вятка",
+     "new": "Хлынов",
+     "wave": "other"
+    },
+    {
+     "year": 1780,
+     "old": "Хлынов",
+     "new": "Вятка",
+     "wave": "other"
+    },
+    {
+     "year": 1934,
+     "old": "Вятка",
+     "new": "Киров",
+     "wave": "communist"
+    }
+   ]
+  },
+  "lubumbashi": {
+   "q": "Q187593",
+   "label": "Lubumbashi",
+   "iso": "CD",
+   "chain": [
+    {
+     "year": 1966,
+     "old": "Élisabethville",
+     "new": "Lubumbashi",
+     "wave": "colonial"
+    }
+   ]
+  },
+  "khujand": {
+   "q": "Q373808",
+   "label": "Khujand",
+   "iso": "TJ",
+   "chain": [
+    {
+     "year": 1936,
+     "old": "Ходжент",
+     "new": "Ленінабад",
+     "wave": "communist"
+    },
+    {
+     "year": 1991,
+     "old": "Ленінабад",
+     "new": "Худжанд",
+     "wave": "reversal"
+    }
+   ]
+  },
+  "ulyanovsk": {
+   "q": "Q5627",
+   "label": "Ulyanovsk",
+   "iso": "RU",
+   "chain": [
+    {
+     "year": 1924,
+     "old": "Симбирск",
+     "new": "Ульяновск",
+     "wave": "communist"
+    }
+   ]
+  },
+  "karakol": {
+   "q": "Q194452",
+   "label": "Karakol",
+   "iso": "KG",
+   "chain": [
+    {
+     "year": 1889,
+     "old": "Каракол",
+     "new": "Пржевальск",
+     "wave": "other"
+    },
+    {
+     "year": 1922,
+     "old": "Пржевальск",
+     "new": "Каракол",
+     "wave": "communist"
+    },
+    {
+     "year": 1939,
+     "old": "Каракол",
+     "new": "Пржевальск",
+     "wave": "communist"
+    },
+    {
+     "year": 1992,
+     "old": "Пржевальск",
+     "new": "Каракол",
+     "wave": "nation"
+    }
+   ]
+  }
+ },
+ "ukraine": {
+  "n": 1515,
+  "y2016": 261,
+  "y2015_17": 263,
+  "y2023_25": 242,
+  "y2024": 219,
+  "reversal_2015": 360,
+  "nation_2022": 150,
+  "y2016_reversal": 261,
+  "y2024_reversal": 91
+ },
+ "romania": {
+  "n": 1053,
+  "y1964": 596,
+  "y1960s": 791
+ },
+ "france": {
+  "n": 563,
+  "revolution": 13,
+  "y1793": 11,
+  "restored": 8
+ },
+ "colonial": {
+  "n": 22,
+  "africa": 20,
+  "cd": 7
+ },
+ "uk": {
+  "events": 37,
+  "renamings": 23,
+  "merger": 22
+ },
+ "ireland": {
+  "events": 0,
+  "items_any": 6
+ },
+ "india": {
+  "renamings": 4
+ },
+ "africa": {
+  "renamings": 35,
+  "pc": 0.5
+ },
+ "japan": {
+  "events": 3223,
+  "status": 2456,
+  "renamings": 532
+ },
+ "soviet": {
+  "communist_ussr": 1808,
+  "reversal_ussr": 508,
+  "token_given": 337,
+  "destal": 16,
+  "post": 114
+ },
+ "peak_year_share_pc": 48,
+ "decol_check": {
+  "n": 20,
+  "absent": 7,
+  "no_event": 2,
+  "colonial": 7,
+  "other_wave": 4,
+  "cases": [
+   {
+    "label": "Kinshasa",
+    "iso": "CD",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "colonial"
+   },
+   {
+    "label": "Lubumbashi",
+    "iso": "CD",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "colonial"
+   },
+   {
+    "label": "Kisangani",
+    "iso": "CD",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "colonial"
+   },
+   {
+    "label": "Harare",
+    "iso": "ZW",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "colonial"
+   },
+   {
+    "label": "Maputo",
+    "iso": "MZ",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "colonial"
+   },
+   {
+    "label": "N'Djamena",
+    "iso": "TD",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "colonial"
+   },
+   {
+    "label": "Banjul",
+    "iso": "GM",
+    "in_extract": false,
+    "renamed": false,
+    "wave": null
+   },
+   {
+    "label": "Bujumbura",
+    "iso": "BI",
+    "in_extract": true,
+    "renamed": false,
+    "wave": null
+   },
+   {
+    "label": "Antananarivo",
+    "iso": "MG",
+    "in_extract": false,
+    "renamed": false,
+    "wave": null
+   },
+   {
+    "label": "Annaba",
+    "iso": "DZ",
+    "in_extract": false,
+    "renamed": false,
+    "wave": null
+   },
+   {
+    "label": "Kabwe",
+    "iso": "ZM",
+    "in_extract": false,
+    "renamed": false,
+    "wave": null
+   },
+   {
+    "label": "Huambo",
+    "iso": "AO",
+    "in_extract": false,
+    "renamed": false,
+    "wave": null
+   },
+   {
+    "label": "Malabo",
+    "iso": "GQ",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "colonial"
+   },
+   {
+    "label": "Jakarta",
+    "iso": "ID",
+    "in_extract": true,
+    "renamed": false,
+    "wave": null
+   },
+   {
+    "label": "Mumbai",
+    "iso": "IN",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "nation"
+   },
+   {
+    "label": "Chennai",
+    "iso": "IN",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "nation"
+   },
+   {
+    "label": "Kolkata",
+    "iso": "IN",
+    "in_extract": false,
+    "renamed": false,
+    "wave": null
+   },
+   {
+    "label": "Yangon",
+    "iso": "MM",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "nation"
+   },
+   {
+    "label": "Dhaka",
+    "iso": "BD",
+    "in_extract": false,
+    "renamed": false,
+    "wave": null
+   },
+   {
+    "label": "Ho Chi Minh City",
+    "iso": "VN",
+    "in_extract": true,
+    "renamed": true,
+    "wave": "communist"
+   }
+  ]
+ },
+ "wave_order": [
+  "colonial",
+  "communist",
+  "reversal",
+  "war",
+  "nation",
+  "merger",
+  "other"
+ ],
+ "wave_name": {
+  "colonial": "Decolonisation",
+  "communist": "Revolution and communism",
+  "reversal": "Undoing revolutionary and communist names",
+  "war": "War and new borders",
+  "nation": "Nation-building and language policy",
+  "merger": "Mergers and administrative reform",
+  "other": "Other renamings",
+  "spelling": "Spelling and transliteration",
+  "status": "Change of status, same name",
+  "qualifier": "Qualifier added or dropped"
+ },
+ "wave_col": {
+  "colonial": "#B8862B",
+  "communist": "#A3261B",
+  "reversal": "#E07A3C",
+  "war": "#5B4A8B",
+  "nation": "#2F6E5A",
+  "merger": "#8A8274",
+  "other": "#3D6E9E",
+  "spelling": "#C9BFA6",
+  "status": "#C9BFA6",
+  "qualifier": "#C9BFA6"
+ },
+ "year_min": -207,
+ "year_max": 2026
+}
